@@ -4,23 +4,69 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="src/assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto FreeBook</title>
-    <!--Iconos del proyecto
-    Burger menu: <i class="fa-solid fa-bars"></i>
-    Login: <i class="fa-solid fa-user-large"></i>
-    Comunidad FreeBook<i class="fa-solid fa-people-group"></i>
-    Logo Catalogo: en Assets
-
-
-    -->
+    <title>Proyecto FreeBook</title>  
   </head>
+  
   <body>
     <div id="root">
-      <header>
-        <h1>FreeBook</h1>
-        <p>Una vez que aprendes a leer serás libre para siempre</p>
-      </header>
+    <header>
+      <img src="Assets-FreeBook/LogoTr.png" alt="Logo de la iniciativa FreeBook">
+      <h1>FreeBook</h1>
+      <h2>Una vez que aprendes a leer serás libre para siempre</h2>
+      <i class="fa-solid fa-bars"></i>
+      <div class="burger-menu">
+        <ul>
+          <li>Iniciar sesión</li>
+          <li>Favoritos</li>
+          <li>Sobre nosotros</li>
+          <li>Buscar</li>
+          <li>Contacto</li>
+          <li>Cerrar sesión</li>
+        </ul>
+      </div>
+    </header>
+
+    <body>
+        <section class="bar-menu">
+          <button type="menu" id="login">Iniciar sesión</button>
+          <button type="menu" id="favorites">Favoritos</button>
+          <button type="menu" id="about">Sobre nosotros</button>
+          <button type="menu" id="search">Buscar</button>
+          <button type="submit" id="contact">Contacto</button>
+          <button type="menu" id="logout">Cerrar sesión</button>
+        </section>
+      <main>     
+        <section class="suggested">
+          <article class="suggested-book">
+            <h2>Recomendado</h2>
+            <button id="favorite">Marcar como favorito</button>
+            <button id="download">Descargar como PDF</button>
+            <button id="read">Leer online</button>
+          </article>
+        </section>
       
+        <section class="community">
+          <article class="communiy-about">
+            <h2>Comunidad</h2>c
+            <h3>Sobre nosotros</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis massa tortor, eget fermentum justo cursus eu. Nam vehicula nibh egestas, dignissim tellus id, hendrerit risus.</p>
+            <p>Phasellus sapien ligula, dictum ac tempor vel, euismod nec ipsum.</p>
+            <button type="menu" id="login">Iniciar sesión</button>
+          </article>
+
+        <section class="community-books">
+          <h2>Catálogo</h2>
+          <button type="button" id="community-books__epub">Libros electrónicos</button>
+          <button type="button">Audiolibros</button>
+        </section>  
+    </main>
+    </body>
+    
+          <!--Iconos del proyecto
+   
+    Login: <i class="fa-solid fa-user-large"></i>
+    Comunidad FreeBook<i class="fa-solid fa-people-group"></i>
+    Logo Catalogo: en Assets--> 
       <main>
         <section class="suggested">
           <h2>Recomendados</h2>
