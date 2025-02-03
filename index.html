@@ -8,7 +8,6 @@
   </head>
   
   <body>
-    <div id="root">
     <header>
       <img src="Assets-FreeBook/LogoTr.png" alt="Logo de la iniciativa FreeBook">
       <h1>FreeBook</h1>
@@ -36,8 +35,8 @@
           <button type="menu" id="logout">Cerrar sesión</button>
         </section>
       <main>     
-        <section class="suggested">
-          <article class="suggested-book">
+        <section class="book">
+          <article class="book__suggested">
             <h2>Recomendado</h2>
             <!--Portada, Título, Autor, ISBN, Boton marcar, Botón descargar -->
             <button id="favorite">Guardar como favorito</button>
@@ -49,14 +48,14 @@
       
         <section class="community">
           <h2>Comunidad</h2>
-          <article class="community-user">
+          <article class="community__user">
             <h3>Membresía</h3>
             <i class="fa-solid fa-user-large"></i>
             <p>Nunc faucibus vestibulum orci, vitae consequat mauris. Aliquam lobortis commodo.</p>
             <button type="button" id="login">Iniciar sesión</button>
           </article>
 
-          <article class="communiy-about">
+          <article class="communiy__about">
             <h3>Sobre nosotros</h3>
             <i class="fa-solid fa-user-large"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis massa tortor, eget fermentum justo cursus eu. Nam vehicula nibh egestas, dignissim tellus id, hendrerit risus.</p>
@@ -64,13 +63,13 @@
             <button type="menu" id="login">Iniciar sesión</button>
           </article>
 
-        <section class="community-books">
+        <section class="community__books">
           <h3>Catálogo</h3>
           <i class="fa-solid fa-tablet-screen-button"></i> 
           <button type="button" id="community-books__epub">Libros electrónicos</button>
           <button type="button" id="community-books__audio">Audiolibros</button>
         </section>
-        <section class="community-search">
+        <section class="community__search">
           <h3>Buscar</h3>
           <i class="fa-solid fa-magnifying-glass"></i>
           <button type="button" id="search">Buscar</button>
